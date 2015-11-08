@@ -5,10 +5,12 @@ mod 'puppetlabs/ntp'
 mod 'puppetlabs/apt'
 mod 'puppetlabs/vcsrepo'
 mod 'theforeman/puppet'
-mod 'theforeman/dns'
 mod 'theforeman/dhcp'
+mod 'inkblot/bind'
+mod 'ripienaar/module_data'
 mod 'jfryman/nginx'
 mod 'zack/r10k'
+mod 'saz/locales'
 
 mod 'environments',
   :git => 'https://github.com/furhouse/500k-environments.git'
