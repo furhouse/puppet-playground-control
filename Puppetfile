@@ -10,6 +10,7 @@ mod 'jfryman/nginx'
 mod 'zack/r10k'
 mod 'inkblot/bind'
 mod 'ripienaar/module_data'
+mod 'saz/locales'
 
 mod 'environments',
   :git => 'https://github.com/furhouse/500k-environments.git'
