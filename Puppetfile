@@ -48,4 +48,5 @@ mod 'motd',
   :git => 'git://github.com/cernops/puppet-motd.git'
 
 mod 'ssh',
-  :git => 'git://github.com/saz/puppet-ssh.git'
+  :git => 'git://github.com/saz/puppet-ssh.git',
+  :ref => '404525671d3db9aeeccd8b339f70d4dcd66e58ed'
