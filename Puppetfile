@@ -30,7 +30,7 @@ mod 'roles',
   :git => 'https://github.com/furhouse/500k-roles.git'
 
 mod 'packages',
-  :git => 'git@github.com:furhouse/500k-packages.git'
+  :git => 'https://github.com/furhouse/500k-packages.git'
 
 mod 'libvirt',
   :git => 'https://github.com/furhouse/puppet-libvirt.git',
