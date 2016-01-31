@@ -21,6 +21,7 @@ mod 'inkblot/bind'
 mod 'ripienaar/module_data'
 mod 'zack/r10k'
 mod 'saz/locales'
+mod 'ajjahn-samba'
 
 mod 'environments',
   :git => 'https://github.com/furhouse/500k-environments.git'
