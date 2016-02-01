@@ -22,6 +22,7 @@ mod 'ripienaar/module_data'
 mod 'zack/r10k'
 mod 'saz/locales'
 mod 'ajjahn/samba'
+mod 'echocat/nfs'
 
 mod 'environments',
   :git => 'https://github.com/furhouse/500k-environments.git'
