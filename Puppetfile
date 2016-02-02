@@ -59,3 +59,6 @@ mod 'motd',
 mod 'ssh',
   :git => 'git://github.com/saz/puppet-ssh.git',
   :ref => '404525671d3db9aeeccd8b339f70d4dcd66e58ed'
+
+mod 'backuppc',
+  :git => 'https://github.com/Conzar/puppet-backuppc.git'
