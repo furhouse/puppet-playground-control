@@ -1,11 +1,12 @@
 forge "http://forge.puppetlabs.com"
 
 mod 'puppetlabs/stdlib'
+mod 'puppetlabs/concat'
 mod 'puppetlabs/ntp'
 mod 'puppetlabs/apt'
 mod 'puppetlabs/vcsrepo'
 mod 'puppetlabs/xinetd'
-mod 'puppetlabs/apache'
+mod 'puppetlabs/apache', '1.8.1'
 mod 'puppetlabs/puppetdb'
 mod 'puppetlabs/inifile'
 mod 'puppetlabs/firewall'
@@ -49,9 +50,6 @@ mod 'ansible',
 
 mod 'supervisord',
   :git => 'https://github.com/ajcrowe/puppet-supervisord.git'
-
-mod 'concat',
-  :git => 'git://github.com/puppetlabs/puppetlabs-concat.git'
 
 mod 'motd',
   :git => 'git://github.com/cernops/puppet-motd.git'
