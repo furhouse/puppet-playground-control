@@ -24,6 +24,7 @@ mod 'zack/r10k'
 mod 'saz/locales'
 mod 'ajjahn/samba'
 mod 'echocat/nfs'
+mod 'garethr/docker'
 
 mod 'environments',
   :git => 'https://github.com/furhouse/500k-environments.git'
