@@ -25,6 +25,7 @@ mod 'saz/locales'
 mod 'ajjahn/samba'
 mod 'echocat/nfs'
 mod 'garethr/docker'
+mod 'wyrie/backuppc'
 
 mod 'environments',
   :git => 'https://github.com/furhouse/500k-environments.git'
@@ -58,6 +59,3 @@ mod 'motd',
 mod 'ssh',
   :git => 'git://github.com/saz/puppet-ssh.git',
   :ref => '404525671d3db9aeeccd8b339f70d4dcd66e58ed'
-
-mod 'backuppc',
-  :git => 'https://github.com/furhouse/puppet-backuppc'
