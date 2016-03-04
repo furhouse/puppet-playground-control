@@ -1,59 +1,47 @@
 forge "http://forge.puppetlabs.com"
 
-mod 'puppetlabs/stdlib'
-mod 'puppetlabs/concat'
-mod 'puppetlabs/ntp'
-mod 'puppetlabs/apt'
-mod 'puppetlabs/vcsrepo'
-mod 'puppetlabs/xinetd'
+mod 'puppetlabs/stdlib', '4.11.0'
+mod 'puppetlabs/concat', '2.1.0'
+mod 'puppetlabs/ntp', '4.1.2'
+mod 'puppetlabs/apt', '2.2.2'
+mod 'puppetlabs/vcsrepo', '1.3.2'
+mod 'puppetlabs/xinetd', '1.5.0'
 mod 'puppetlabs/apache', '1.8.1'
-mod 'puppetlabs/puppetdb'
-mod 'puppetlabs/inifile'
-mod 'puppetlabs/firewall'
-mod 'puppetlabs/postgresql'
-mod 'puppet/extlib'
-mod 'theforeman/puppet'
-mod 'theforeman/foreman'
-mod 'theforeman/foreman_proxy'
-mod 'theforeman/dhcp'
-mod 'theforeman/tftp'
-mod 'adrien/alternatives'
-mod 'inkblot/bind'
-mod 'ripienaar/module_data'
-mod 'zack/r10k'
-mod 'saz/locales'
-mod 'ajjahn/samba'
-mod 'echocat/nfs'
-mod 'garethr/docker'
+mod 'puppetlabs/puppetdb', '5.1.1'
+mod 'puppetlabs/inifile', '1.4.3'
+mod 'puppetlabs/firewall', '1.8.0'
+mod 'puppetlabs/postgresql', '4.7.1'
+mod 'puppet/extlib', '0.11.0'
+mod 'theforeman/puppet', '4.3.0'
+mod 'theforeman/foreman', '5.1.0'
+mod 'theforeman/foreman_proxy', '2.5.0'
+mod 'theforeman/dhcp', '2.3.0'
+mod 'theforeman/tftp', '1.7.0'
+mod 'adrien/alternatives', '0.3.0'
+mod 'inkblot/bind', '5.1.2'
+mod 'ripienaar/module_data', '0.5.1'
+mod 'zack/r10k', '3.2.0'
+mod 'saz/locales', '2.2.2'
+mod 'ajjahn/samba', '0.4.0'
+mod 'echocat/nfs', '1.8.0'
+mod 'garethr/docker', '5.1.0'
+mod 'ajcrowe/supervisord', '0.6.0'
+mod 'CERNOps/motd', '2.0.0'
+mod 'nvogel/ansible', '3.0.0'
 
 mod 'environments',
   :git => 'https://github.com/furhouse/500k-environments.git'
-
 mod 'users',
   :git => 'https://github.com/furhouse/500k-users.git'
-
 mod 'profiles',
   :git => 'https://github.com/furhouse/500k-profiles.git'
-
 mod 'roles',
   :git => 'https://github.com/furhouse/500k-roles.git'
-
 mod 'packages',
   :git => 'https://github.com/furhouse/500k-packages.git'
-
 mod 'libvirt',
   :git => 'https://github.com/furhouse/puppet-libvirt.git',
   :ref => 'develop'
-
-mod 'ansible',
-  :git => 'https://github.com/nvogel/puppet-ansible',
-  :ref => '3.0.0'
-
-mod 'supervisord',
-  :git => 'https://github.com/ajcrowe/puppet-supervisord.git'
-
-mod 'motd',
-  :git => 'git://github.com/cernops/puppet-motd.git'
 
 mod 'ssh',
   :git => 'git://github.com/saz/puppet-ssh.git',
