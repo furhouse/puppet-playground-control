@@ -25,7 +25,7 @@ mod 'saz/locales', '2.2.2'
 mod 'saz/sudo', '3.1.0'
 mod 'ajjahn/samba', '0.4.0'
 mod 'echocat/nfs', '1.8.0'
-mod 'garethr/docker', '5.1.0'
+# mod 'garethr/docker', '5.1.0'
 mod 'ajcrowe/supervisord', '0.6.0'
 mod 'CERNOps/motd', '2.0.0'
 mod 'nvogel/ansible', '3.0.0'
@@ -51,3 +51,6 @@ mod 'ssh',
 mod 'backuppc',
   :git => 'https://github.com/furhouse/puppet-backuppc',
   :ref => 'wyrie/backuppc'
+
+mod 'docker',
+  :git => 'https://github.com/furhouse/garethr-docker'
