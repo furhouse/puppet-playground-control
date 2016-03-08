@@ -29,6 +29,9 @@ mod 'echocat/nfs', '1.8.0'
 mod 'ajcrowe/supervisord', '0.6.0'
 mod 'CERNOps/motd', '2.0.0'
 mod 'nvogel/ansible', '3.0.0'
+mod 'camptocamp/postfix' '1.2.13'
+mod 'camptocamp/augeas' '1.4.2'
+mod 'danzilio/letsencrypt' '1.0.0'
 
 mod 'environments',
   :git => 'https://github.com/furhouse/500k-environments.git'
