@@ -37,6 +37,7 @@ mod 'jfryman/nginx', '0.3.0'
 mod 'luxflux/openvpn', '3.0.0'
 mod 'nanliu/staging', '1.0.3'
 mod 'adamcrews/nessus', '0.3.2'
+mod 'bashtoni/timezone', '1.0.0'
 
 mod 'environments',
   :git => 'https://github.com/furhouse/500k-environments.git'
