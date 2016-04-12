@@ -17,7 +17,7 @@ class { 'r10k':
   version           => '1.5.1',
   sources           => {
     'puppet' => {
-      'remote'  => 'https://github.com/furhouse/500k-puppetcontrol.git',
+      'remote'  => 'https://github.com/furhouse/puppet-playground.git',
       'basedir' => "${::settings::confdir}/environments",
       'prefix'  => false,
     }
