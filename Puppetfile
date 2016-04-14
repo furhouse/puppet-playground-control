@@ -18,6 +18,11 @@ mod 'puppetlabs/git', '0.4.0'
 mod 'puppetlabs/ruby', '0.4.0'
 mod 'puppetlabs/mysql', '3.7.0'
 mod 'nanliu/staging', '1.0.3'
+mod 'puppetlabs/mysql', '3.7.0'
+mod 'mayflower/php', '3.4.2'
+mod 'darin/zypprepo', '1.0.2'
+mod 'example42/yum', '2.1.27'
+mod 'nanliu/staging', '1.0.3'
 
 mod 'profiles',
   :git => 'https://github.com/furhouse/500k-profiles.git'
