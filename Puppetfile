@@ -27,7 +27,8 @@ mod 'nanliu/staging', '1.0.3'
 mod 'profiles',
   :git => 'https://github.com/furhouse/500k-profiles.git'
 mod 'roles',
-  :git => 'https://github.com/furhouse/500k-roles.git'
+  :git => 'https://github.com/furhouse/500k-roles.git',
+  :ref => 'assignment.from.charles'
 
 mod 'packages',
   :git => 'https://github.com/furhouse/500k-packages.git'
