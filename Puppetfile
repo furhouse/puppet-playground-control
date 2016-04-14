@@ -16,6 +16,8 @@ mod 'bashtoni/timezone', '1.0.0'
 mod 'hunner/hiera', '2.0.1'
 mod 'puppetlabs/git', '0.4.0'
 mod 'puppetlabs/ruby', '0.4.0'
+mod 'puppetlabs/mysql', '3.7.0'
+mod 'nanliu/staging', '1.0.3'
 
 mod 'profiles',
   :git => 'https://github.com/furhouse/500k-profiles.git'
