@@ -24,7 +24,7 @@ mod 'profiles',
 mod 'roles',
   :git => 'https://github.com/furhouse/500k-roles.git'
 mod 'berlinmodule',
-  :git => 'https://github.com/furhouse/berlinmodule.git'
+  :git => 'https://github.com/furhouse/berlinmodule.git',
   :ref => 'corinna_wordpress'
 mod 'packages',
   :git => 'https://github.com/furhouse/500k-packages.git'
