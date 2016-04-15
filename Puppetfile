@@ -23,7 +23,8 @@ mod 'profiles',
   :git => 'https://github.com/furhouse/500k-profiles.git'
 mod 'roles',
   :git => 'https://github.com/furhouse/500k-roles.git'
-
+mod 'berlinmodule',
+  :git => 'https://github.com/furhouse/berlinmodule.git'
 mod 'packages',
   :git => 'https://github.com/furhouse/500k-packages.git'
 mod 'environments',
