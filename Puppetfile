@@ -23,7 +23,7 @@ mod 'profiles',
   :git => 'https://github.com/furhouse/500k-profiles.git'
 mod 'roles',
   :git => 'https://github.com/furhouse/500k-roles.git'
-mod 'berlinmodule',
+mod 'wordpress',
   :git => 'https://github.com/furhouse/berlinmodule.git',
   :ref => 'corinna_wordpress'
 mod 'packages',
